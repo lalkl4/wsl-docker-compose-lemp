@@ -25,3 +25,5 @@ phpmyadmin: сервер - mysql; пользователь - root; пароль 
 mariadb: root; admin
 
 сайт - пхпшный, директория - ./public/*    ,   Если что там index.php хранится 
+
+логи (err, access) нжинкса - в ./logs
