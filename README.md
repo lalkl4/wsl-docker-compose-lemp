@@ -23,3 +23,5 @@
 phpmyadmin: сервер - mysql; пользователь - root; пароль - admin;
 
 mariadb: root; admin
+
+сайт - пхпшный, директория - ./public/*    ,   Если что там index.php хранится 
