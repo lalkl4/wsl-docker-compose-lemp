@@ -21,4 +21,5 @@
 креденшлы:
 
 phpmyadmin: сервер - mysql; пользователь - root; пароль - admin;
+
 mariadb: root; admin
