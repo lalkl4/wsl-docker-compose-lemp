@@ -14,4 +14,6 @@
 "docker-compose up -d" 
 
 
-убить контейнеры "docker-compose rm --all"
+убить контейнеры 
+"docker-compose stop"
+"docker-compose rm --all"
