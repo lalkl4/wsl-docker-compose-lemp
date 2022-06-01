@@ -17,3 +17,8 @@
 убить контейнеры 
 "docker-compose stop"
 "docker-compose rm --all"
+
+креденшлы:
+
+phpmyadmin: сервер - mysql; пользователь - root; пароль - admin;
+mariadb: root; admin
