@@ -1,27 +1,27 @@
 # wsl-docker-compose-lemp (линуха+нжинкс+мариядб+пхпмайадмин)
-## lemp-сервер \n
+## lemp-сервер
 
-ставим линух (я юзнул всл v2) \n
+ставим линух (я юзнул всл v2) 
 
-ставим докер и докер композ \n
+ставим докер и докер композ 
 
-клонируем реп \n
+клонируем реп 
 
-меняем в настройке нжинкса server name на свой адрес сервака \n
+меняем в настройке нжинкса server name на свой адрес сервака
 
-запускаем \n
+запускаем 
 
-"docker-compose up -d" \n
+"docker-compose up -d" 
 
 
-если пхпмайадмин выеживается на дбшку, тогда стопаем контейнеры \n
+если пхпмайадмин выеживается на дбшку, тогда стопаем контейнеры 
 
-"docker-compose stop" \n
+"docker-compose stop" 
 
-потом запускаем дбшку сами \n
+потом запускаем дбшку сами 
 
-"docker run --name mariadb -e MARIADB_ROOT_PASSWORD=admin -d mariadb --port 3306" \n
+"docker run --name mariadb -e MARIADB_ROOT_PASSWORD=admin -d mariadb --port 3306" 
 
-и потом композим опять \n
+и потом композим опять 
 
-"docker-compose up -d" \n
+"docker-compose up -d" 
